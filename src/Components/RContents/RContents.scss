@@ -1,0 +1,167 @@
+.RContents {
+  width: 1440px;
+  height: 900px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+
+
+  .RContainer1 {
+    width: 500px;
+    background-color: rgb(20, 26, 26);
+
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+
+    h1 {
+      font-size: 24px;
+      border-radius: 8px;
+      text-transform: uppercase;
+      letter-spacing: 1%;
+      font-family: 'Poppins', sans-serif;
+      color: rgb(8, 114, 191);
+      padding: 8px;
+      text-align: center;
+    }
+
+    .Rtexts {
+      width: 200px;
+      height: 300px;
+      border: 3px solid rgb(8, 114, 191);
+      border-radius: 4%;
+      margin: 0 auto;
+      text-align: left;
+      padding: 20px;
+      font-family: 'Poppins', sans-serif;
+    }
+  }
+
+  .RContainer2 {
+    width: 940px;
+
+    .RContainer2-title {
+
+      h1 {
+        font-size: 24px;
+        text-transform: uppercase;
+        color: rgb(8, 114, 191);
+        padding: 8px;
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        letter-spacing: 1%;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      p {
+        width: 600px;
+        height: 116.3px;
+        color: rgb(255, 2555, 255);
+        text-align: left;
+
+      }
+    }
+
+    .RContainer2-title2 {
+
+      h1 {
+        font-size: 24px;
+        text-transform: uppercase;
+        color: rgb(8, 114, 191);
+        border-radius: 8px;
+        padding: 8px;
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      .boxx {
+        display: flex;
+        align-items: center;
+
+        .title3 {
+          width: 200px;
+          border: 3px solid rgb(8, 114, 191);
+          border-radius: 8px;
+          text-align: left;
+          padding: 20px;
+
+          p {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            .IoSchoolSharp {
+
+              color: rgb(8, 114, 191);
+            }
+
+            .CiCalendar {
+              color: rgb(8, 114, 191);
+
+            }
+
+            .FaMapPin {
+              color: rgb(8, 114, 191);
+            }
+          }
+        }
+
+        .STUDENT {
+
+          .students {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 24px;
+            padding: 20px;
+
+            .PiStudentFill {
+              color: rgb(8, 114, 191);
+            }
+          }
+        }
+
+      }
+    }
+
+    .Hobby {
+
+      .Hobby-text {
+        font-size: 24px;
+        color: rgb(8, 114, 191);
+        border-radius: 8px;
+        padding: 8px;
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        letter-spacing: 1%;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      .Hobby-container {
+        width: 300px;
+        border: 3px solid rgb(8, 114, 191);
+        border-radius: 8px;
+        padding: 20px;
+        font-size: 18px;
+        text-align: left;
+
+        p {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+        }
+      }
+    }
+  }
+}

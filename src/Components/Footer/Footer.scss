@@ -1,0 +1,192 @@
+footer {
+  width: 1440px;
+  height: 400px;
+  background-color: rgb(20, 26, 26);
+  margin: 0 auto;
+
+  .Footer-title {
+
+    h1 {
+      color: rgb(255, 255, 255);
+      font-family: 'Poppins', sans-serif;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 38px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+  }
+
+  .Footer-container {
+    width: 1300px;
+    height: 260px;
+    // margin: 0 auto;
+    justify-content: center;
+    display: flex;
+
+    .Footer-content1 {
+      width: 300px;
+      height: 193px;
+
+      h1 {
+        color: rgb(255, 255, 255);
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 150%;
+        letter-spacing: 0px;
+        text-align: left;
+        text-transform: capitalize;
+        transition: 0.3s;
+      }
+
+      p {
+        color: rgb(255, 255, 255);
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 150%;
+        letter-spacing: 0px;
+        text-align: left;
+        transition: 0.3s;
+
+        &:hover {
+          color: rgb(8, 114, 191);
+        }
+      }
+    }
+
+    .Footer-content2 {
+      width: 300px;
+      height: 193px;
+
+      h1 {
+        color: rgb(255, 255, 255);
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 150%;
+        letter-spacing: 0px;
+        text-align: left;
+        text-transform: capitalize;
+      }
+
+      p {
+        color: rgb(255, 255, 255);
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 150%;
+        letter-spacing: 0px;
+        text-align: left;
+        transition: 0.3s;
+
+        &:hover {
+          color: rgb(8, 114, 191);
+        }
+      }
+    }
+
+    .Footer-register {
+      position: relative;
+      top: 80px;
+
+      h1 {
+        color: rgb(255, 255, 255);
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 150%;
+        letter-spacing: 0px;
+
+      }
+
+      input {
+        width: 300px;
+        height: 60px;
+        border-radius: 8px;
+        background: rgb(43, 46, 60);
+        color: rgb(255, 255, 255);
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0px;
+        text-align: left;
+        border: none;
+      }
+
+      button {
+        width: 155px;
+        height: 60px;
+        box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.25);
+        background: linear-gradient(90deg, rgb(8, 114, 191), rgb(13, 146, 175) 100%);
+        color: rgb(255, 255, 255);
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: 0px;
+        text-align: center;
+        border-radius: 10px;
+        position: relative;
+        left: 20px;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+
+        &:hover {
+          background: linear-gradient(90deg, rgb(13, 146, 175), rgb(8, 114, 191) 100%);
+          box-shadow: rgb(8, 114, 191) 0px 1px 0px, rgb(8, 114, 191) 0px 0px 8px;
+        }
+      }
+    }
+  }
+
+  .Footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    hr {
+      width: 400px;
+      border: 2px solid rgb(255, 255, 255);
+      border-radius: 5px;
+    }
+
+    p {
+      color: rgb(8, 114, 191);
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 150%;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+
+    .Footer-social {
+      display: flex;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0);
+        transition: 0.3s;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+
+        img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
