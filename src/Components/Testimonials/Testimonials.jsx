@@ -12,19 +12,19 @@ function Testimonials() {
 	const reviews = [
 		{
 			img: Bayastan,
-			text: 'She listened to my ideas and provided valuable input, which helped to create a user interface that was both aesthetically pleasing and easy to use.',
+			text: 'He listened to my ideas and provided valuable input, which helped to create a user interface that was both aesthetically pleasing and easy to use.',
 			name: 'Bayastan Akmataliev',
 			position: 'Executive Engineer',
 		},
 		{
 			img: Ellipse2,
-			text: 'I recently worked with Saira on a project and was extremely impressed with their creativity and attention to detail. She listened to my ideas and',
+			text: 'I recently worked with Abdulhafiz on a project and was extremely impressed with their creativity and attention to detail. He listened to my ideas.',
 			name: 'Rick Wright',
 			position: 'Executive Engineer',
 		},
 		{
 			img: Ellipse3,
-			text: 'Her design skills are top-notch and effectively communicated with our team throughout the project. I highly recommend her to anyone in.',
+			text: 'Her development skills are top notch and she communicated effectively with our team throughout the project. I highly recommend her to anyone.',
 			name: 'Devon Miles',
 			position: 'Executive Engineer',
 		},
