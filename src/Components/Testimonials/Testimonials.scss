@@ -5,20 +5,26 @@
   text-align: center;
 
   .Testimonials-title {
-    height: 180px;
 
     p {
-      color: rgb(253, 253, 253);
-      font-family: 'Poppins', sans-serif;
-      font-size: 26px;
+      color: #ffffff;
+      font-family: 'Manrope', sans-serif;
+      font-size: 24px;
       font-weight: 600;
+      line-height: 26.2px;
+      letter-spacing: 0%;
+      text-align: center;
+      height: 10px;
     }
 
     h2 {
-      color: rgb(8, 114, 191);
-      font-family: 'Poppins', sans-serif;
+      color: #765AEE;
+      font-family: 'Open sans', sans-serif;
       font-size: 40px;
-      font-weight: 600;
+      font-weight: 800;
+      line-height: 48px;
+      letter-spacing: 0%;
+      text-align: center;
     }
   }
 
@@ -27,66 +33,52 @@
     justify-content: center;
     align-items: center;
     height: 350px;
-    /* Фиксируем высоту, чтобы не прыгало */
     position: relative;
 
     .review {
       width: 450px;
       height: 305px;
-      border-radius: 42px;
-      box-shadow: 0px 4px 20px rgba(93, 173, 236, 0.23);
-      background: rgba(0, 0, 0, 0);
-      transition: opacity 0.5s ease-in-out;
-      font-family: 'Poppins', sans-serif;
+      border-radius: 30px;
+      border: 2px solid #765AEE;
+      font-family: 'Manrope', sans-serif;
       text-align: center;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       padding: 20px;
-      animation: guswShadow 1.5s infinite ease-in-out;
 
       img {
         width: 80px;
         border-radius: 50%;
-        border: 3px solid rgb(253, 253, 253);
+        border: 4px solid #765AEE;
       }
 
       p {
-        color: rgb(255, 255, 255);
+        color: #ffffff;
         font-size: 18px;
         font-weight: 300;
         height: 50px;
+        font-family: 'Manrope', sans-serif;
       }
 
       h3 {
-        color: rgb(8, 114, 191);
+        color: #765AEE;
         font-size: 26px;
         font-weight: 700;
         height: 0;
+        font-family: 'Manrope', sans-serif;
       }
 
       h6 {
-        color: rgb(255, 255, 255);
+        color: #ffffff;
         font-size: 12px;
         font-weight: 500;
         height: 0;
+        font-family: 'Manrope', sans-serif;
       }
     }
 
-    @keyframes guswShadow {
-      0% {
-        box-shadow: 0px 4px 20px rgba(93, 173, 236, 0.23);
-      }
-
-      50% {
-        box-shadow: 0px 4px 40px rgb(8, 114, 191);
-      }
-
-      100% {
-        box-shadow: 0px 4px 20px rgba(93, 173, 236, 0.23);
-      }
-    }
 
   }
 
@@ -110,14 +102,14 @@
     }
 
     .btn1 {
-      background: rgba(255, 255, 255, 0.2);
-      border: 3px solid rgba(255, 255, 255, 0.2);
+      background: #2b2933;
+      border: 3px solid #f1ae0e;
 
     }
 
     .btn2 {
-      background: rgb(8, 114, 191);
-      border: 3px solid rgba(255, 255, 255, 0.2);
+      background: #f1ae0e;
+      border: 3px solid #ffffff;
     }
 
     button:hover {

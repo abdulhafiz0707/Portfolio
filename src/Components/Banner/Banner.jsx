@@ -8,6 +8,7 @@ import InstagramLogo from '../../assets/img/InstagramLogo.png'
 import FacebookLogo from '../../assets/img/FacebookLogo.png'
 import LinkedinLogo from '../../assets/img/LinkedinLogo.png'
 import GitHub from '../../assets/img/GitHub.png'
+import { FaCode } from 'react-icons/fa'
 
 function Banner() {
 	useEffect(() => {
@@ -18,15 +19,19 @@ function Banner() {
 		<div className='Banner'>
 			<div className='Banner-contents'>
 				<div data-aos='fade-right'>
-					<p className='Banner-p1'>
+					<h1 className='Banner-h1'>
 						Hello gyes, <i>I’m</i>
+					</h1>
+					<p className='Banner-p4'>Abdulhafiz Kudaiberdiev</p>
+					<p className='Banner-p2'>
+						FrontEnd Developer
+						<FaCode className='FaCode' />
 					</p>
-					<h1>Kudaiberdiev Abdulhafiz</h1>
-					<p className='Banner-p2'>FrontEnd Developer</p>
-					<p className='Banner-p3'>
-						I am committed to finding innovative solutions and continuously
-						experimenting to help my clients achieve their goals.
-					</p>
+						<p className='Banner-p3'>
+							I am committed to finding innovative solutions and continuously
+							experimenting to help my clients achieve their goals.
+						</p>
+
 					<button data-aos='zoom-in'>Let’s Talk</button>
 				</div>
 				<div className='Banner-img' data-aos='fade-left'>

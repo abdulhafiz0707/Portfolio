@@ -10,33 +10,41 @@
 
     div {
       width: 1000px;
-      color: rgb(255, 255, 255);
+      color: #ffffff;
       text-align: left;
       padding-top: 100px;
 
-      .Banner-p1 {
-        font-family: 'Poppins', sans-serif;
-        font-size: 24px;
-        font-weight: 500;
-        line-height: 29px;
+      .Banner-h1 {
+        font-family: 'Open sans', sans-serif;
+        font-size: 28px;
+        font-weight: 800;
+        text-align: left;
+        width: 390px;
+        height: 10px;
 
         i {
-          color: rgb(8, 114, 191);
           font-style: normal;
         }
       }
 
-      h1 {
-        color: rgb(8, 114, 191);
-        font-family: 'Poppins', sans-serif;
-        letter-spacing: 1px;
-        height: 20px;
+      .Banner-p4 {
+        font-family: 'Open sans', sans-serif;
+        font-size: 28px;
+        font-weight: 800;
       }
 
       .Banner-p2 {
         font-size: 24px;
-        font-weight: 200;
-        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-family: 'Manrope', sans-serif;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        .FaCode {
+          color: #765AEE;
+        }
+
       }
 
       .Banner-p3 {
@@ -44,28 +52,27 @@
         font-weight: 400;
         line-height: 1.5;
         width: 457px;
-        height: 149px;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Manrope', sans-serif;
+        position: relative;
+        bottom: 24px;
       }
 
       button {
-        width: 175px;
-        height: 60px;
-        box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.25);
-        background: linear-gradient(90deg, rgb(8, 114, 191), rgb(13, 146, 175) 100%);
-        border-radius: 10px;
-        color: rgb(255, 255, 255);
-        font-family: 'Poppins', sans-serif;
+        width: 201.65px;
+        height: 46.6px;
+        background: #f1ae0e;
+        font-family: 'Open sans', sans-serif;
+        color: #ffffff;
         font-size: 20px;
-        font-weight: 500;
+        font-weight: 700;
         text-align: center;
         border: none;
         cursor: pointer;
         transition: 0.3s;
 
         &:hover {
-          background: linear-gradient(90deg, rgb(13, 146, 175), rgb(8, 114, 191) 100%);
-          box-shadow: rgb(8, 114, 191) 0px 1px 0px, rgb(8, 114, 191) 0px 0px 8px;
+          box-shadow: #f1ae0e 0px 1px 0px, #f1ae0e 0px 0px 8px;
+          color: #ffffff;
         }
       }
     }
@@ -75,27 +82,10 @@
     position: relative;
     left: 150px;
 
-
-    @keyframes blinkShadow {
-      0% {
-        filter: drop-shadow(5px 5px 5px rgb(8, 114, 191));
-      }
-
-      50% {
-        filter: drop-shadow(5px 5px 5px rgb(13, 146, 175)); // Изменение цвета на более светлый
-      }
-
-      100% {
-        filter: drop-shadow(5px 5px 5px rgb(8, 114, 191));
-      }
-    }
-
     img {
       width: 450px;
       height: 450px;
       border-radius: 13%;
-      filter: drop-shadow(5px 5px 5px rgb(8, 114, 191));
-      animation: blinkShadow 1.5s infinite ease-in-out;
     }
   }
 
@@ -104,20 +94,14 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    // margin-top: 20px;
-    // border-bottom: 1px solid rgb(8, 114, 191);
     border-radius: 5%;
 
     p {
-      color: rgb(255, 255, 255);
+      color: #ffffff;
       font-size: 18px;
-      font-weight: 500;
-      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-family: 'Manrope', sans-serif;
       transition: 0.3s;
-
-      &:hover {
-        color: rgb(8, 114, 191);
-      }
     }
 
     .box {
@@ -168,8 +152,8 @@
 }
 
 body {
-  background-color: rgb(20, 26, 26);
-  color: rgb(255, 255, 255);
+  background-color: #2b2933;
+  color: #ffffff;
   margin: 0;
   padding: 0;
 }

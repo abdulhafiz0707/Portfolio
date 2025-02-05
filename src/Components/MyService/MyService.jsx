@@ -15,7 +15,7 @@ function MyService() {
 					<h2>Driving School</h2>
 					<p>Here you can look</p>
 					<button>
-						<a href='https://driving-school-pjz3.vercel.app/'>Go</a>
+						<a href='https://driving-school-pjz3.vercel.app/'>Look</a>
 					</button>
 				</div>
 				<div className='Service-content2'>
@@ -23,7 +23,7 @@ function MyService() {
 					<h2>Driving School</h2>
 					<p>Here you can look</p>
 					<button>
-						<a href='https://driving-school-pjz3.vercel.app/'>Go</a>
+						<a href='https://driving-school-pjz3.vercel.app/'>Look</a>
 					</button>
 				</div>
 				<div className='Service-content3'>
@@ -31,7 +31,7 @@ function MyService() {
 					<h2>Driving School</h2>
 					<p>Here you can look</p>
 					<button>
-						<a href='https://driving-school-pjz3.vercel.app/'>Go</a>
+						<a href='https://driving-school-pjz3.vercel.app/'>Look</a>
 					</button>
 				</div>
 			</div>

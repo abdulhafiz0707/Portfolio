@@ -1,28 +1,44 @@
 import React from 'react'
 import './ResumeInfo.scss'
-import { RiMapPinUserLine } from 'react-icons/ri'
-import { LuPhone } from 'react-icons/lu'
-import { MdOutlineEmail } from 'react-icons/md'
+import { PiMapPinSimpleAreaFill } from 'react-icons/pi'
+import { FaPhoneAlt } from 'react-icons/fa'
+import { FaTelegram } from 'react-icons/fa'
+import { MdEmail } from 'react-icons/md'
 
 function ResumeInfo() {
 	return (
 		<div className='ResumeInfo'>
 			<div className='Title'>
-				<p className='titles'>A | K</p>
+				<p className='titles'>
+					A <i>|</i> K
+				</p>
 				<p className='name'>Abdulhafiz Kudaiberdiev</p>
 			</div>
 			<div className='Resume-social'>
 				<div className='map'>
-					<RiMapPinUserLine className='RiMapPinUserLine' />
+					<PiMapPinSimpleAreaFill className='PiMapPinSimpleAreaFill' />
+					<h2>Geolocation</h2>
 					<p className='mep-p'>Kyrgyzstan Chui</p>
 					<p>Postal code ( 722030 )</p>
 				</div>
 				<div className='phone'>
-					<LuPhone className='LuPhone' />
+					<FaPhoneAlt className='FaPhoneAlt' />
+					<h2>Phone</h2>
 					<p>+996 559 20 70 83</p>
 				</div>
+				<div className='telegram'>
+					<FaTelegram className='FaTelegram' />
+					<div className='webb'>
+						{' '}
+						{/* ✅ Исправлено: <div> вместо <p> */}
+						<h2>Telegram</h2>
+						<a href='https://t.me/@abdulhaf1z83'>t.me/abdulhaf1z83</a>
+					</div>
+				</div>
+
 				<div className='email'>
-					<MdOutlineEmail className='MdOutlineEmail' />
+					<MdEmail className='MdEmail' />
+					<h2>Email</h2>
 					<p className='gmail-name'>abdulhafizkudajberdiev</p>
 					<p className='gmail'>@gmail.com</p>
 				</div>

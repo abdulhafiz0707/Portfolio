@@ -14,7 +14,7 @@ function Footer() {
 			<div className='Footer-container'>
 				<div className='Footer-content1'>
 					<h1>Company</h1>
-					<p>About Us</p>
+					<p>About me</p>
 					<p>Why Choose me</p>
 					<p>Pricing</p>
 					<p>Testimonial</p>
@@ -27,9 +27,9 @@ function Footer() {
 					<p>Contact Us</p>
 				</div>
 				<div className='Footer-register'>
-					<h1>Subscribe to our Newsletter</h1>
+					<h1>Subscribe my Newsletter</h1>
 					<div>
-						<input type='text' placeholder='Enter your Email' />
+						<input type='text' placeholder='Enter your Email' />{' '}
 						<button>Subscribe</button>
 					</div>
 				</div>
@@ -38,16 +38,16 @@ function Footer() {
 				<hr />
 				<p>Copyright @2025</p>
 				<div className='Footer-social'>
-					<a href='https://www.instagram.com'>
+					<a className='insta' href='https://www.instagram.com'>
 						<img src={InstagramLogo} alt='' />
 					</a>
-					<a href='https://www.facebook.com'>
+					<a className='book' href='https://www.facebook.com'>
 						<img src={FacebookLogo} alt='' />
 					</a>
-					<a href='https://www.linkedin.com'>
+					<a className='link' href='https://www.linkedin.com'>
 						<img src={LinkedinLogo} alt='' />
 					</a>
-					<a href='https://github.com'>
+					<a className='git' href='https://github.com'>
 						<img src={GitHub} alt='' />
 					</a>
 				</div>

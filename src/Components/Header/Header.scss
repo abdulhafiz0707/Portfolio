@@ -1,24 +1,24 @@
 header {
-  max-width: 1440px; // Ограничиваем максимальную ширину
-  margin: 0 auto; // Центрируем хедер
+  max-width: 1440px; 
+  margin: 0 auto; 
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 50px;
   height: 50px;
-  overflow: hidden; // Убираем возможные переполнения
+  overflow: hidden; 
   position: sticky;
   z-index: 99;
   top: 0;
-  background-color: rgb(20, 26, 26);
+  background-color: #2b2933f7;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, .6);
 
 
   .portfolioTitle {
-    color: rgb(255, 255, 255);
-    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-family: 'Open sans', sans-serif;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
   }
 
   .navBar {
@@ -26,26 +26,26 @@ header {
     gap: 40px;
 
     a {
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Manrope', sans-serif;
       font-size: 20px;
       font-weight: 500;
       text-decoration: none;
-    color: rgb(255, 255, 255);
+      color: #ffffff;
       transition: color 0.3s ease-in-out;
 
       &:hover {
-        color: #0872bf;
+        color: #765AEE;
       }
     }
 
     .activeLink {
-      color: #0872bf;
+      color: #765AEE;
     }
   }
 }
 
 body {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   margin: 0;
   padding: 0;
   overflow-x: hidden;

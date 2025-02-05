@@ -4,91 +4,177 @@
   height: 440px;
 
   .Title {
-    height: 200px;
 
     .titles {
-      font-size: 34px;
-      font-weight: 500;
-      color: rgb(8, 114, 191);
-      font-family: 'Poppins', sans-serif;
+      font-size: 24px;
+      font-weight: 300;
+      font-family: 'Manrope', sans-serif;
       height: 0;
+
+      i {
+        font-style: normal;
+        color: #765AEE;
+      }
     }
 
     .name {
       font-size: 40px;
-      font-weight: 800;
-      color: rgb(255, 255, 255);
+      font-weight: 200;
+      letter-spacing: 3px;
+      color: #ffffff;
       text-align: center;
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Open sans', sans-serif;
       text-transform: uppercase;
+      font-style: inherit;
     }
   }
 
   .Resume-social {
+    width: 1000px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    gap: 20px;
     align-items: center;
 
     .map {
-      width: 300px;
+      width: 260px;
       height: 150px;
-      border-right: 2px solid rgb(8, 114, 191);
+      border: 2px solid #765AEE;
+      border-radius: 30px;
+      padding: 15px;
+      transition: 0.3s;
 
-      .RiMapPinUserLine {
+      .PiMapPinSimpleAreaFill {
         width: 40px;
         height: 40px;
-        color: rgb(8, 114, 191);
+        color: #765AEE;
+      }
+
+      h2 {
+        height: 18px;
+        font-family: 'Open sans', sans-serif;
       }
 
       .mep-p {
         font-size: 16px;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Manrope', sans-serif;
         height: 10px;
       }
 
       p {
         font-size: 16px;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Manrope', sans-serif;
+      }
 
+      &:hover {
+        box-shadow: #765AEE 0px 1px 0px, #765AEE 0px 0px 8px;
       }
     }
 
     .phone {
-      width: 300px;
+      width: 260px;
       height: 150px;
-      border-right: 2px solid rgb(8, 114, 191);
-      font-family: 'Poppins', sans-serif;
+      border: 2px solid #765AEE;
       font-size: 16px;
+      border-radius: 30px;
+      padding: 15px;
+      transition: 0.3s;
 
+      h2 {
+        font-family: 'Open sans', sans-serif;
+        height: 18px;
+      }
 
-      .LuPhone {
-        width: 35px;
-        height: 35px;
-        color: rgb(8, 114, 191);
+      .FaPhoneAlt {
+        width: 30px;
+        height: 30px;
+        color: #765AEE;
+      }
+
+      p {
+        font-family: 'Manrope', sans-serif;
+      }
+
+      &:hover {
+        box-shadow: #765AEE 0px 1px 0px, #765AEE 0px 0px 8px;
       }
     }
 
-    .email {
-      width: 300px;
+    .telegram {
+      width: 260px;
       height: 150px;
-      
-      .MdOutlineEmail {
+      border: 2px solid #765AEE;
+      font-size: 16px;
+      border-radius: 30px;
+      padding: 15px;
+      transition: 0.3s;
+
+      .FaTelegram {
         width: 35px;
         height: 35px;
-        color: rgb(8, 114, 191);
+        color: #765AEE;
       }
-      
+
+      .webb {
+
+        h2 {
+          font-family: 'Open sans', sans-serif;
+          height: 18px;
+        }
+
+        a {
+          text-decoration: none;
+          color: #ffffff;
+          font-family: 'Manrope', sans-serif;
+
+          &:hover {
+            color: #765AEE;
+          }
+        }
+      }
+
+      &:hover {
+        box-shadow: #765AEE 0px 1px 0px, #765AEE 0px 0px 8px;
+      }
+
+    }
+
+    .email {
+      width: 260px;
+      height: 150px;
+      border: 2px solid #765AEE;
+      font-size: 16px;
+      border-radius: 30px;
+      padding: 15px;
+      transition: 0.3s;
+
+      .MdEmail {
+        width: 35px;
+        height: 35px;
+        color: #765AEE;
+      }
+
+      h2 {
+        font-family: 'Open sans', sans-serif;
+        height: 18px;
+      }
+
       .gmail-name {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-size: 16px;
-        height: 0;
+        height: 5px;
       }
-      
+
       .gmail {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-size: 16px;
 
       }
+
+      &:hover {
+        box-shadow: #765AEE 0px 1px 0px, #765AEE 0px 0px 8px;
+      }
+
     }
   }
 }

@@ -2,18 +2,17 @@
   width: 1440px;
   height: 900px;
   margin: 0 auto;
-  font-family: 'Poppins', sans-serif;
   display: flex;
-
+  background-color: #2b2933;
 
   .RContainer1 {
     width: 500px;
-    background-color: rgb(20, 26, 26);
 
     img {
-      width: 200px;
-      height: 200px;
+      width: 215px;
+      height: 215px;
       border-radius: 50%;
+      border: 3px solid #f1ae0e;
     }
 
     h1 {
@@ -21,50 +20,62 @@
       border-radius: 8px;
       text-transform: uppercase;
       letter-spacing: 1%;
-      font-family: 'Poppins', sans-serif;
-      color: rgb(8, 114, 191);
+      font-family: 'Open sans', sans-serif;
+      color: #ffffff;
       padding: 8px;
       text-align: center;
     }
 
     .Rtexts {
-      width: 200px;
-      height: 300px;
-      border: 3px solid rgb(8, 114, 191);
-      border-radius: 4%;
+      width: 350px;
+      border: 2px solid #765AEE;
+      border-radius: 30px;
       margin: 0 auto;
       text-align: left;
       padding: 20px;
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Manrope', sans-serif;
     }
   }
 
   .RContainer2 {
-    width: 940px;
 
     .RContainer2-title {
+
 
       h1 {
         font-size: 24px;
         text-transform: uppercase;
-        color: rgb(8, 114, 191);
-        padding: 8px;
-        font-family: 'Poppins', sans-serif;
+        color: #ffffff;
+        font-family: 'Open sans', sans-serif;
         text-align: left;
         letter-spacing: 1%;
-        border-radius: 8px;
         display: flex;
         align-items: center;
-        gap: 5px;
+        height: 16px;
+        padding: 0;
+        margin: 0;
+
       }
 
       p {
         width: 600px;
-        height: 116.3px;
-        color: rgb(255, 2555, 255);
+        color: #ffffff;
         text-align: left;
+        font-family: 'Manrope', sans-serif;
 
       }
+
+      .RContainer2-title2 {
+        padding: 20px;
+        border: 2px solid #765AEE;
+        border-radius: 30px;
+        margin-top: 30px;
+      }
+    }
+
+    .ffwgit {
+      display: flex;
+      gap: 50px;
     }
 
     .RContainer2-title2 {
@@ -72,14 +83,13 @@
       h1 {
         font-size: 24px;
         text-transform: uppercase;
-        color: rgb(8, 114, 191);
-        border-radius: 8px;
+        color: #ffffff;
         padding: 8px;
-        font-family: 'Poppins', sans-serif;
+        letter-spacing: 1%;
+        font-family: 'Open sans', sans-serif;
         text-align: left;
         display: flex;
         align-items: center;
-        gap: 5px;
       }
 
       .boxx {
@@ -87,9 +97,9 @@
         align-items: center;
 
         .title3 {
-          width: 200px;
-          border: 3px solid rgb(8, 114, 191);
-          border-radius: 8px;
+          width: 210px;
+          border: 2px solid #765AEE;
+          border-radius: 30px;
           text-align: left;
           padding: 20px;
 
@@ -97,38 +107,28 @@
             display: flex;
             align-items: center;
             gap: 5px;
+            font-family: 'Manrope', sans-serif;
+            font-size: 18px;
 
             .IoSchoolSharp {
 
-              color: rgb(8, 114, 191);
+              color: #765AEE;
             }
 
             .CiCalendar {
-              color: rgb(8, 114, 191);
+              color: #765AEE;
 
             }
 
             .FaMapPin {
-              color: rgb(8, 114, 191);
+              color: #765AEE;
             }
-          }
-        }
-
-        .STUDENT {
-
-          .students {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            font-size: 24px;
-            padding: 20px;
 
             .PiStudentFill {
-              color: rgb(8, 114, 191);
+              color: #765AEE;
             }
           }
         }
-
       }
     }
 
@@ -136,31 +136,51 @@
 
       .Hobby-text {
         font-size: 24px;
-        color: rgb(8, 114, 191);
-        border-radius: 8px;
+        color: #ffffff;
         padding: 8px;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Open sans', sans-serif;
         text-align: left;
         letter-spacing: 1%;
         text-transform: uppercase;
         display: flex;
         align-items: center;
-        gap: 5px;
       }
 
       .Hobby-container {
-        width: 300px;
-        border: 3px solid rgb(8, 114, 191);
-        border-radius: 8px;
+        width: 220px;
+        border: 2px solid #765AEE;
+        border-radius: 30px;
         padding: 20px;
-        font-size: 18px;
-        text-align: left;
 
         p {
           display: flex;
           align-items: center;
           gap: 5px;
+          font-size: 18px;
+          font-family: 'Manrope', sans-serif;
         }
+      }
+    }
+  }
+
+  .Skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    border: 2px solid #765AEE;
+    width: 563px;
+    height: 90px;
+    border-radius: 30px;
+
+    img {
+      width: 75px;
+      height: 75px;
+      transition: 0.3s;
+
+      &:hover {
+        width: 80px;
+        height: 80px;
       }
     }
   }
