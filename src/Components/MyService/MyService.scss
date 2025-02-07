@@ -1,28 +1,38 @@
 .Service {
   width: 1440px;
-  height: 640px;
+  height: 600px;
   margin: 0 auto;
 
+  @keyframes fade-page {
+    from {
+      translate: -0%;
+      opacity: 0;
+    }
+  }
+
   .Service-title {
+    animation-name: fade-page;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+
+    view-timeline-name: --fade-in-Service-title;
+    animation-timeline: --fade-in-Service-title;
+    animation-range: 20% 40%;
 
     p {
       color: #ffffff;
-      font-family: 'Manrope', sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 24px;
       font-weight: 600;
-      line-height: 26.2px;
-      letter-spacing: 0%;
       text-align: center;
       height: 10px;
     }
 
     h1 {
       color: #765AEE;
-      font-family: 'Open sans', sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 40px;
       font-weight: 800;
-      line-height: 48px;
-      letter-spacing: 0%;
       text-align: center;
     }
   }
@@ -31,118 +41,40 @@
     display: flex;
     justify-content: space-evenly;
 
-    .Service-content1 {
-      width: 354.62px;
-      height: 380px;
-      box-sizing: border-box;
-      border-radius: 30px;
-      padding: 40px;
-      transition: 0.3s;
-      cursor: pointer;
-      border: 2px solid #765AEE;
-
-      img {
-        width: 160px;
-        height: 150px;
-      }
-
-      h2 {
-        color: #ffffff;
-        font-family: 'Open sans', sans-serif;
-        height: 20px;
-      }
-
-      p {
-        color: #765AEE;
-        font-family: 'Manrope', sans-serif;
-      }
-
-      button {
-        width: 201.65px;
-        height: 46.6px;
-        background: #f1ae0e;
-        // border-radius: 10px;
-        color: #ffffff;
-        font-size: 20px;
-        text-align: center;
-        border: none;
-        cursor: pointer;
-        transition: 0.3s;
-
-        &:hover {
-          box-shadow: #f1ae0e 0px 1px 0px, #f1ae0e 0px 0px 8px;
-        }
-
-        a {
-          color: #ffffff;
-          text-decoration: none;
-          font-family: 'Open sans', sans-serif;
-          font-weight: 700;
-        }
-      }
-
-    }
-
-    .Service-content2 {
-      width: 354.62px;
-      height: 380px;
-      box-sizing: border-box;
-      border-radius: 30px;
-      padding: 40px;
-      transition: 0.3s;
-      cursor: pointer;
-      border: 2px solid #765AEE;
-
-      img {
-        width: 160px;
-        height: 150px;
-      }
-
-      h2 {
-        color: #ffffff;
-        font-family: 'Open sans', sans-serif;
-        height: 20px;
-      }
-
-      p {
-        color: #765AEE;
-        font-family: 'Manrope', sans-serif;
-      }
-
-      button {
-        width: 201.65px;
-        height: 46.6px;
-        background: #f1ae0e;
-        // border-radius: 10px;
-        color: #ffffff;
-        font-size: 20px;
-        text-align: center;
-        border: none;
-        cursor: pointer;
-        transition: 0.3s;
-
-        &:hover {
-          box-shadow: #f1ae0e 0px 1px 0px, #f1ae0e 0px 0px 8px;
-        }
-
-        a {
-          color: #ffffff;
-          text-decoration: none;
-          font-family: 'Open sans', sans-serif;
-          font-weight: 700;
-        }
+    @keyframes fade-in {
+      from {
+        translate: -0%;
+        opacity: 0;
       }
     }
 
+    .Service-content1,
+    .Service-content2,
     .Service-content3 {
       width: 354.62px;
       height: 380px;
       box-sizing: border-box;
-      border-radius: 30px;
+      border-radius: 10% 30% / 30% 10%;
       padding: 40px;
-      transition: 0.3s;
       cursor: pointer;
       border: 2px solid #765AEE;
+      animation-name: fade-in;
+      animation-fill-mode: both;
+      animation-timing-function: linear;
+
+      view-timeline-name: --fade-in-Service-content1;
+      animation-timeline: --fade-in-Service-content1;
+      view-timeline-name: --fade-in-Service-content2;
+      animation-timeline: --fade-in-Service-content2;
+      view-timeline-name: --fade-in-Service-content3;
+      animation-timeline: --fade-in-Service-content3;
+      animation-range: 20% 40%;
+
+      transition: 0.3s;
+
+      &:hover {
+        box-shadow: #765AEE 0px 1px 0px, #765AEE 0px 0px 8px;
+      }
 
       img {
         width: 160px;
@@ -151,23 +83,21 @@
 
       h2 {
         color: #ffffff;
-        font-family: 'Open sans', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         height: 20px;
       }
 
       p {
         color: #765AEE;
-        font-family: 'Manrope', sans-serif;
+        font-family: 'Montserrat', sans-serif;
       }
 
       button {
         width: 201.65px;
         height: 46.6px;
         background: #f1ae0e;
-        // border-radius: 10px;
         color: #ffffff;
         font-size: 20px;
-
         text-align: center;
         border: none;
         cursor: pointer;
@@ -185,6 +115,5 @@
         }
       }
     }
-
   }
 }

@@ -1,4 +1,3 @@
-  //  #f1ae0e #ffffff #765AEE 
   footer {
     width: 1440px;
     height: 400px;
@@ -9,7 +8,7 @@
 
       h1 {
         color: #ffffff;
-        font-family: 'Open sans', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 28px;
         font-weight: 700;
         line-height: 38px;
@@ -31,7 +30,7 @@
 
         h1 {
           color: #ffffff;
-          font-family: 'Open sans', sans-serif;
+          font-family: 'Montserrat', sans-serif;
           font-size: 18px;
           font-weight: 600;
           line-height: 150%;
@@ -58,12 +57,12 @@
       }
 
       .Footer-content2 {
-        width: 300px;
+        width: 200px;
         height: 193px;
 
         h1 {
           color: #ffffff;
-          font-family: 'Open sans', sans-serif;
+          font-family: 'Montserrat', sans-serif;
           font-size: 18px;
           font-weight: 600;
           line-height: 150%;
@@ -89,12 +88,14 @@
       }
 
       .Footer-register {
+
         position: relative;
-        top: 80px;
+        top: 91px;
+        height: 90px;
 
         h1 {
           color: #ffffff;
-          font-family: 'Open sans', sans-serif;
+          font-family: 'Montserrat', sans-serif;
           font-size: 18px;
           font-weight: 600;
           line-height: 150%;
@@ -102,34 +103,42 @@
 
         }
 
-        input {
-          width: 300px;
-          height: 46.6px;
-          background: #2b2933;
-          color: #ffffff;
-          font-family: 'Manrope', sans-serif;
-          font-size: 16px;
-          font-weight: 400;
-          line-height: 150%;
-          letter-spacing: 0px;
-          text-align: left;
-          border: 1px solid #ffffff;
-        }
+        .footer-wox {
+          gap: 15px;
+          display: flex;
 
-        button {
-          width: 201.65px;
-          height: 46.6px;
-          background: #f1ae0e;
-          color: #ffffff;
-          font-size: 20px;
+          input {
+            width: 300px;
+            height: 46.6px;
+            background: #2b2933;
+            color: #ffffff;
+            font-family: 'Manrope', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 150%;
+            letter-spacing: 0px;
+            text-align: left;
+            border: 1px solid #ffffff;
+          }
 
-          text-align: center;
-          border: none;
-          cursor: pointer;
-          transition: 0.3s;
+          button {
+            width: 201.65px;
+            height: 46.6px;
+            background: #f1ae0e;
+            color: #ffffff;
+            font-size: 20px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
 
-          &:hover {
-            box-shadow: #f1ae0e 0px 1px 0px, #f1ae0e 0px 0px 8px;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+
+            &:hover {
+              box-shadow: #f1ae0e 0px 1px 0px, #f1ae0e 0px 0px 8px;
+              color: #ffffff;
+            }
           }
         }
       }
@@ -149,7 +158,7 @@
 
       p {
         color: #765AEE;
-        font-family: 'Open sans', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         font-weight: 400;
         line-height: 150%;

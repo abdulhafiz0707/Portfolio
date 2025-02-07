@@ -1,6 +1,6 @@
 import React from 'react'
 import './RContents.scss'
-import Rlogo from '../../assets/img/Rlogo.jpg'
+import Rlogo from '../../assets/img/Banner1.png'
 import HtmlLogo from '../../assets/img/HtmlLogo.png'
 import CssLogo from '../../assets/img/CssLogo.png'
 import ReactLogo from '../../assets/img/ReactLogo.png'

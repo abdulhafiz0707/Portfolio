@@ -28,7 +28,7 @@ function Footer() {
 				</div>
 				<div className='Footer-register'>
 					<h1>Subscribe my Newsletter</h1>
-					<div>
+					<div className='footer-wox'>
 						<input type='text' placeholder='Enter your Email' />{' '}
 						<button>Subscribe</button>
 					</div>

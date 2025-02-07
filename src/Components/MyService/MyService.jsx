@@ -3,6 +3,7 @@ import '../MyService/MyService.scss'
 import Servic from '../../assets/img/Servic.png'
 
 function MyService() {
+
 	return (
 		<div className='Service'>
 			<div className='Service-title'>

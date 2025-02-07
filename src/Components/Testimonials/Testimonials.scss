@@ -1,14 +1,29 @@
+@keyframes fade-title {
+  from {
+    translate: -0%;
+    opacity: 0;
+  }
+}
+
 .Testimonials {
   width: 1440px;
   height: 700px;
   margin: 0 auto;
   text-align: center;
+  animation-name: fade-title;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+
+  view-timeline-name: --fade-in-Service-title;
+  animation-timeline: --fade-in-Service-title;
+  animation-range: 20% 40%;
+
 
   .Testimonials-title {
 
     p {
       color: #ffffff;
-      font-family: 'Manrope', sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 24px;
       font-weight: 600;
       line-height: 26.2px;
@@ -19,7 +34,7 @@
 
     h2 {
       color: #765AEE;
-      font-family: 'Open sans', sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 40px;
       font-weight: 800;
       line-height: 48px;
@@ -38,9 +53,9 @@
     .review {
       width: 450px;
       height: 305px;
-      border-radius: 30px;
+      border-radius: 10% 30% / 30% 10%;
       border: 2px solid #765AEE;
-      font-family: 'Manrope', sans-serif;
+      // font-family: 'Montserrat', sans-serif;
       text-align: center;
       display: flex;
       flex-direction: column;
@@ -59,7 +74,7 @@
         font-size: 18px;
         font-weight: 300;
         height: 50px;
-        font-family: 'Manrope', sans-serif;
+        font-family: 'Montserrat', sans-serif;
       }
 
       h3 {
@@ -67,7 +82,7 @@
         font-size: 26px;
         font-weight: 700;
         height: 0;
-        font-family: 'Manrope', sans-serif;
+        font-family: 'Montserrat', sans-serif;
       }
 
       h6 {
@@ -75,7 +90,7 @@
         font-size: 12px;
         font-weight: 500;
         height: 0;
-        font-family: 'Manrope', sans-serif;
+        font-family: 'Montserrat', sans-serif;
       }
     }
 
