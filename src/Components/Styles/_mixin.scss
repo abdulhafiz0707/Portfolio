@@ -1,0 +1,38 @@
+// 🟢 Mixin для адаптивности
+@mixin respond($breakpoint) {
+
+  // Телефон
+  @if $breakpoint ==mobile {
+    @media (max-width: 480px) {
+      @content;
+    }
+  }
+
+  // Планшет
+  @if $breakpoint ==tablet {
+    @media (max-width: 768px) {
+      @content;
+    }
+  }
+
+  // Ноутбук
+  @if $breakpoint ==laptop {
+    @media (max-width: 1024px) {
+      @content;
+    }
+  }
+
+  // Компютер 
+  @if $breakpoint ==desktop {
+    @media (max-width: 1440px) {
+      @content;
+    }
+  }
+}
+
+// 🟢 Mixin для центр
+@mixin flexbox($justify: center, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}

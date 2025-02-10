@@ -1,7 +1,7 @@
 import React from 'react'
 import './ResumeInfo.scss'
 import { PiMapPinSimpleAreaFill } from 'react-icons/pi'
-import { FaPhoneAlt } from 'react-icons/fa'
+import { FaSquarePhone } from 'react-icons/fa6'
 import { FaTelegram } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
 
@@ -22,7 +22,7 @@ function ResumeInfo() {
 					<p>Postal code ( 722030 )</p>
 				</div>
 				<div className='phone'>
-					<FaPhoneAlt className='FaPhoneAlt' />
+					<FaSquarePhone className='FaSquarePhone' />
 					<h2>Phone</h2>
 					<p>+996 559 20 70 83</p>
 				</div>

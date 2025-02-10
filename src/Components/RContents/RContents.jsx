@@ -7,6 +7,7 @@ import ReactLogo from '../../assets/img/ReactLogo.png'
 import JS from '../../assets/img/JS.png'
 import TSlogo from '../../assets/img/TSlogo.png'
 import Sasslogo from '../../assets/img/Sasslogo.png'
+import TailwindLogo from '../../assets/img/TailwindLogo.png'
 import { IoSchoolSharp } from 'react-icons/io5'
 import { FaCalendar } from 'react-icons/fa'
 import { FaMapPin } from 'react-icons/fa'
@@ -119,6 +120,7 @@ function RContents() {
 					<img src={ReactLogo} alt='' />
 					<img src={TSlogo} alt='' />
 					<img src={Sasslogo} alt='' />
+					<img src={TailwindLogo} alt='' />
 				</div>
 			</div>
 		</div>
